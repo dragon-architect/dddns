@@ -1,0 +1,14 @@
+# Quick aliases for short-format digs
+alias digs='dig +short'   # General dig
+alias digx='digs -x'      # rDNS dig
+
+# Here's an alias to run a dig without all the stupid comments and other output
+alias cleandig='dig +nocomments +nostats +noquestion +noauthority +noadditional +nocmd'
+
+# These aliases are for production scripts for work
+alias checkdns='bash ~/checkdns.sh'
+alias checkmx='bash ~/checkmx.sh'
+alias digdeep='bash ~/digdeep.sh'
+alias digmail='bash ~/digmail.sh'
+alias echomx='bash ~/echomx.sh'
+alias rdns='bash ~/rdns.sh'
